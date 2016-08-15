@@ -1,0 +1,492 @@
+
+body {
+  background-color:#f7cabe;
+  font-family: Baskerville, Arial, sans-serif;
+  }
+
+html {
+  display: flex;
+  }
+
+.flex-container {
+  display:flex;
+  background-color: #ffe6e6;
+  width:100%;
+  width:1200px;
+  height:500px;
+  }
+
+/* about section*/
+#flexitem1 {
+  flex:1;
+  margin-left:55px;
+  text-align:left;
+
+}
+
+/*quote section*/
+#flexitem2 {
+
+flex:3;
+margin-top:0px;
+margin-left:100px;
+text-align:none;
+}
+
+#quotearea {
+   display:block;
+   text-overflow:wrap;
+   margin-top:50px;
+   width:80%;
+}
+
+#quote {
+  font-size:20px;
+}
+
+#source {
+  font-size:15px;
+  margin-left:15%;
+  margin-top:20px;
+}
+
+#introText {
+  margin-top: 50px;
+  margin-bottom:25px;
+  font-size:20px;
+}
+
+
+button {
+  padding:10px;
+  margin-top:20px;
+  margin-right:0%;
+  font-family:Baskerville, Arial, sans-serif;
+  font-size:20px;
+}
+
+p {
+  font-size:18px;
+}
+
+div #introText.new {
+  font-size:22px;
+  margin-right:10px;
+  width:90%;
+}
+
+#quotesource {
+    font-size:17px;
+    margin-top:20px;
+    margin-left:40%;
+  }
+
+#tweetQuote {
+display:block;
+margin-top:20px;
+}
+
+h2 {
+  font-size:22px;
+}
+
+/*Media Queries*/
+
+@media screen and (min-width: 1601px) {
+  img {
+    height: 700px;
+    width:2000px;
+  }
+  .flex-container {
+    width:2000px;
+    height:500px;
+  }
+}
+
+@media screen and (min-width: 1301px) and (max-width: 1600px) {
+  img {
+    height: 550px;
+    width:1600px;
+  }
+  .flex-container {
+    width:1600px;
+    height:400px;
+  }
+}
+
+@media screen and (min-width: 1026px) and (max-width: 1300px) {
+  img {
+    height: 450px;
+    width:1300px;
+  }
+  .flex-container {
+    width:1300px;
+    height:500px;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+  img {
+    height: 400px;
+  width: 1200px;
+}
+
+.flex-container {
+    width:1200px;
+    height:400px;
+  }
+}
+
+
+
+
+@media screen and (min-width: 901px) and (max-width: 1024px) {
+  img {
+    width:1024px;
+    height:350px;}
+
+h2 {
+    font-size:22px;
+  }
+
+ #quotearea {
+  margin-left:100px;
+   display:block;
+   text-overflow:wrap;
+   margin-top:20px;
+
+}
+
+.flex-container {
+    width:1024px;
+    height:400px;
+  }
+
+}
+
+@media screen and (min-width: 751px) and (max-width: 900px) {
+  img {
+    height: 320px;
+    width: 900px;
+    font-size:15px;}
+
+  #source {
+  font-size:12px;
+  margin-left:0%;
+  margin-top:10px;
+  }
+
+  #quote {
+    font-size:18px;
+  }
+
+#about {
+  font-size: 15px;
+}
+
+.flex-container {
+    width:900px;
+    padding-bottom:0;
+  }
+
+}
+
+@media screen and (min-width: 601px) and (max-width: 750px) {
+  img {
+    height:260px;
+    width: 740px;
+  }
+
+  h2 {
+    font-size:15px;
+  }
+
+  button {
+  font-size:12px;
+  padding:8px;
+  margin-bottom:10px;
+  margin-top:10px;
+}
+
+#about {
+    font-size:13px;
+  }
+
+#flexitem1, #flexitem2 {
+  margin-top:0px;
+}
+
+#flexitem1 {
+  float:right;
+  margin-left:5px;
+}
+
+#source {
+  font-size:12px;
+  margin-left:10px;
+  display:inline-block;
+}
+
+.flex-container {
+  padding-bottom:0px;
+  width:750px;
+  height:400px;
+
+}
+
+#flexitem2 {
+  margin-left:50px;
+}
+
+#quote {
+    font-size:12px;
+    width:20%;
+  }
+
+div #introText.new {
+  font-size:16px;
+  margin-right:10px;
+  width:90%;
+}
+
+#quotesource {
+    font-size:14px;
+    margin-top:20px;
+    margin-left:30%;
+  }
+
+#tweetQuote {
+display:block;
+margin-top:20px;
+font-size:15px;
+}
+
+#introText {
+  margin-top: 50px;
+  margin-bottom:10px;
+  font-size:15px;
+}
+
+p {
+  font-size:15px;
+
+}
+}
+
+
+
+
+
+
+@media screen and (min-width: 451px) and (max-width: 600px) {
+  img {
+  height: 200px;
+  width: 600px;
+}
+
+h2 {
+    font-size:15px;
+  }
+
+button {
+  font-size:10px;
+  padding:5px;
+  margin-bottom:10px;
+  margin-top:10px;
+}
+
+#quotearea {
+  margin-left:15px;
+}
+
+#about {
+    font-size:10px;
+  }
+
+  .flex-container {
+    width:600px;
+
+  }
+
+  #quote {
+    font-size:12px;
+    width:20%;
+  }
+
+  #source {
+    font-size:11px;
+    float:left;
+  }
+
+  #flexitem1 {
+    margin-left:5px;
+  }
+#flexitem2 {
+  text-align:left;
+  margin-left:20px;
+}
+
+div #introText.new {
+  font-size:17px;
+  margin-right:10px;
+  width:90%;
+}
+#quotesource {
+    font-size:14px;
+    margin-top:20px;
+    margin-left:30%;
+  }
+
+  #tweetQuote {
+display:block;
+margin-top:20px;
+font-size:12px;
+}
+
+#introText {
+  margin-top: 50px;
+  margin-bottom:10px;
+  font-size:15px;
+}
+p {
+  font-size:15px;
+
+}
+
+button {
+  padding:8px;
+  width:50%;
+}
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width:0px) and (max-width: 450px) {
+  img {
+  height:150px;
+  width:450px;
+}
+
+body {
+  width:450px;
+  height:600px;
+}
+
+h2 {
+    font-size:12px;
+    display:block;
+  }
+
+button {
+  font-size:8px;
+  padding:8px;
+  margin-bottom:10px;
+  margin-top:10px;
+  display:block;
+  align-items:center;
+  width:80%;
+}
+
+.flex-container {
+  height:600px;
+  padding-bottom:0px;
+  margin-top:10px;
+  width:450px;
+}
+
+
+
+#flexitem1 {
+  visibility:hidden;
+  width:0%;
+  display:none;
+  flex:0;
+
+}
+
+
+#flexitem2 {
+  margin-right:25%;
+  width:400px;
+  align-content:center;
+  flex-shrink:0;
+
+
+
+}
+
+#quotearea {
+  font-size:10px;
+  width:100%;
+
+}
+
+#quote {
+    font-size:13px;
+  }
+
+
+
+  #about {
+    font-size:10px;
+  }
+div #introText.new {
+  font-size:15px;
+
+
+  width:100%;
+}
+
+#quotesource {
+    font-size:10px;
+    margin-top:20px;
+
+  }
+
+#tweetQuote {
+display:block;
+margin-top:10px;
+font-size:10px;
+
+}
+
+#introText {
+  margin-top: 50px;
+  margin-bottom:0px;
+  font-size:12px;
+  width:400px;
+  margin-right:15%;
+}
+
+div #introText.new {
+  width:380px;
+  margin-right:100px;
+  width:100%;
+}
+
+p {
+  font-size:15px;
+
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
